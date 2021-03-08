@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin: 180px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+    color: white;
+    font-weight: normal;
+}
+
+h2 {
+    color: #FBD8DA;
+    font-size: 1.25rem;
+    margin: 20px 0;
+    font-weight: normal;
+}
+
+h3 {
+    color: #1e1b4b;
+}
+
+hr {
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    color: #FBD8DA;
+    width: 30%;
+    clear: right;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #9582B1;
+}
+
+.top-container {
+    background-color: #1e1b4b;
+    position: relative;
+    height: 800px;
+    padding-top: 80px;
+}
+
+.middle-container {
+    background-color: rgb(177, 137, 177);
+    padding: 40px
+}
+
+.bottom-container {
+    background-color: #FBD8DA;
+    padding: 40px 0 30px 0;
+}
+
+.mountain {
+    position:absolute;
+    margin: auto;
+    bottom: 0;
+    top: 1;
+    left: 0;
+    right: 0;
+    width: 500px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 450px;
+    top: 100px;
+}
+
+.top-cloud:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 350px;
+    width: 200px;
+}
+
+.bottom-cloud:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.right-cloud {
+    position: absolute;
+    bottom: 330px;
+    right: 250px;
+    width: 150px;
+    opacity: 50%;
+}
+
+.right-cloud:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.left-cloud {
+    position: absolute;
+    bottom: 370px;
+    left: 500px;
+    width: 90px;
+    opacity: 50%;
+}
+
+.left-cloud:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.top-left-cloud {
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    width: 90px;
+    opacity: 50%;
+}
+
+.top-left-cloud:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.leftmost-cloud {
+    position: absolute;
+    top: 300px;
+    left: 170px;
+    width: 90px;
+    opacity: 50%;
+}
+
+.leftmost-cloud:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.avatar {
+    width: 170px;
+    height: 170px;
+}
+
+.profile {
+    padding: 50px;
+    line-height: 2;
+}
+
+.introduction {
+    text-align: left;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.skills {
+    padding: 50px 0 40px 0;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 70px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.web-design-icon {
+    width: 15%;
+    float: left;
+    margin-right: 30px;
+}
+
+.languages-icon {
+    width: 15%;
+    float: right;
+    margin-left: 30px;
+}
+
+.bear-icon {
+    width: 15%;
+    float: left;
+    margin-right: 30px;
+}
+
+
+.contact-me {
+    padding: 60px;
+}
+
+.btn {
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px;
+    background-color: #7CB74C;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+ }
+ 
+ .btn:hover {
+    background: #90c466;
+    border: none;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+ }
+
+.footer-link {
+    margin: 20px;
+    line-height: 40px;
+}
